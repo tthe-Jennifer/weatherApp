@@ -1,0 +1,11 @@
+runtime: nodejs
+api_version: 19.7.0
+threadsafe: yes
+
+handlers:
+- url: .*
+  script: auto
+
+# libraries:
+# - name: webapp2
+#   version: "2.5.2"
